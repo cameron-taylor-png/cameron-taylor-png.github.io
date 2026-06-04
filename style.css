@@ -1,5 +1,9 @@
 body {
-    background-color: #1a1a2e;
+    background-image: url('weic2426a.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     color: #c8c8c8;
     font-family: "Times New Roman", Times, serif;
     font-size: 15px;
@@ -11,14 +15,20 @@ body {
     margin: 0 auto;
 }
 
+object.email {
+	height: 2em;
+	margin: -1em 0;
+	vertical-align: middle;
+}
+
 /* ---- top/bottom marquee-style banner ---- */
 #banner, #footer-banner {
-    background-color: #0f3460;
-    color: #00ff99;
+    background-color: #2a0a0a;
+    color: #f5c87a;
     font-family: "Courier New", Courier, monospace;
     font-size: 0.85em;
     padding: 4px 8px;
-    border: 2px outset #336699;
+    border: 2px outset #6b2020;
     text-align: center;
     letter-spacing: 2px;
     margin-bottom: 8px;
@@ -43,15 +53,15 @@ body {
 }
 
 .box {
-    background-color: #16213e;
-    border: 2px inset #336699;
+    background-color: #1c0d0d;
+    border: 2px inset #6b2020;
     padding: 6px 8px;
     margin-bottom: 6px;
 }
 
 .box-title {
-    background-color: #0f3460;
-    color: #00ff99;
+    background-color: #2a0a0a;
+    color: #f0a830;
     font-family: "Courier New", Courier, monospace;
     font-size: 0.8em;
     font-weight: bold;
@@ -72,22 +82,22 @@ body {
 
 /* ---- main column ---- */
 #main {
-    background-color: #16213e;
-    border: 2px inset #336699;
+    background-color: #1c0d0d;
+    border: 2px inset #6b2020;
     padding: 12px 16px;
     vertical-align: top;
 }
 
 h1 {
     font-family: "Courier New", Courier, monospace;
-    color: #00ff99;
+    color: #f0a830;
     font-size: 1.8em;
     margin: 0 0 2px 0;
-    text-shadow: 0 0 6px #00cc77;
+    text-shadow: 0 0 6px #c47010;
 }
 
 .subtitle {
-    color: #7ec8e3;
+    color: #e07070;
     font-family: "Courier New", Courier, monospace;
     font-size: 0.9em;
     margin: 0 0 8px 0;
@@ -95,29 +105,29 @@ h1 {
 
 h2 {
     font-family: "Courier New", Courier, monospace;
-    color: #7ec8e3;
+    color: #e07070;
     font-size: 1.1em;
-    border-bottom: 1px solid #336699;
+    border-bottom: 1px solid #6b2020;
     padding-bottom: 2px;
     margin-top: 12px;
 }
 
 hr {
     border: none;
-    border-top: 1px solid #336699;
+    border-top: 1px solid #6b2020;
     margin: 10px 0;
 }
 
 a {
-    color: #7ec8e3;
+    color: #c49a6c;
 }
 
 a:visited {
-    color: #a88beb;
+    color: #a07050;
 }
 
 a:hover {
-    color: #00ff99;
+    color: #ffffff;
 }
 
 /* ---- data table ---- */
@@ -129,14 +139,14 @@ table.data-table {
 }
 
 table.data-table th, table.data-table td {
-    border: 1px solid #336699;
+    border: 1px solid #6b2020;
     padding: 4px 8px;
     text-align: left;
 }
 
 table.data-table th {
-    background-color: #0f3460;
-    color: #00ff99;
+    background-color: #2a0a0a;
+    color: #f0a830;
     font-family: "Courier New", Courier, monospace;
     font-size: 0.85em;
     letter-spacing: 1px;
@@ -149,9 +159,9 @@ table.data-table th {
 
 .badge {
     display: inline-block;
-    background-color: #0f3460;
-    color: #00ff99;
-    border: 1px outset #336699;
+    background-color: #3d1010;
+    color: #f0a830;
+    border: 1px outset #6b2020;
     font-family: "Courier New", Courier, monospace;
     font-size: 0.7em;
     font-weight: bold;
@@ -161,6 +171,6 @@ table.data-table th {
 }
 
 small {
-    color: #666;
+    color: #7a5040;
     font-family: "Courier New", Courier, monospace;
 }
