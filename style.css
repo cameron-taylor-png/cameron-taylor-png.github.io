@@ -16,9 +16,9 @@ body {
 }
 
 object.email {
-	height: 2em;
-	margin: -1em 0;
-	vertical-align: middle;
+    width: 270px;
+    height: 18px;
+    vertical-align: middle;
 }
 
 /* ---- top/bottom marquee-style banner ---- */

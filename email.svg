@@ -1,17 +1,8 @@
-<svg viewBox="0 0 130 24" xmlns="http://www.w3.org/2000/svg">
-
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&amp;display=swap');
-
-text {
-	dominant-baseline: middle;
-	fill: #000;
-	font-family: 'Indie Flower';
-	font-size: 16px;
-	text-anchor: middle;
-}
-</style>
-
-<text x="50%" y="50%">taylorcj@student.unimelb.edu.au</text>
-
+<svg viewBox="0 0 270 18" xmlns="http://www.w3.org/2000/svg">
+<text x="50%" y="50%"
+  dominant-baseline="middle"
+  text-anchor="middle"
+  fill="#c49a6c"
+  font-family="'Courier New', Courier, monospace"
+  font-size="13">taylorcj@student.unimelb.edu.au</text>
 </svg>
