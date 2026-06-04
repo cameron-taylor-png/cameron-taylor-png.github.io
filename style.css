@@ -15,6 +15,32 @@ body {
     margin: 0 auto;
 }
 
+#box {
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+#box-bottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    pointer-events: none;
+}
+
+#box-bottom img {
+    pointer-events: auto;
+}
+
+#jonson {
+    position: fixed;
+    bottom: 0;
+    left: 10px;
+    width: 80px;
+    image-rendering: pixelated;
+}
+
 object.email {
     width: 270px;
     height: 18px;
@@ -86,6 +112,15 @@ object.email {
     border: 2px inset #6b2020;
     padding: 12px 16px;
     vertical-align: top;
+    position: relative;
+}
+
+#monchhichi {
+    position: absolute;
+    bottom: -10px;
+    right: 0px;
+    height: 110px;
+    width: auto;
 }
 
 h1 {
@@ -173,4 +208,29 @@ table.data-table th {
 small {
     color: #7a5040;
     font-family: "Courier New", Courier, monospace;
+}
+
+/* ---- last.fm ---- */
+#lastfm-track, #lastfm-artists, #lastfm-obsession {
+    word-break: break-word;
+    font-size: 0.85em;
+    line-height: 1.5;
+}
+
+#lastfm-obsession-section {
+    display: none;
+}
+
+.lastfm-status {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 0.75em;
+    color: #f0a830;
+    letter-spacing: 1px;
+}
+
+.lastfm-label {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 0.75em;
+    color: #7a5040;
+    margin: 0 0 4px 0;
 }

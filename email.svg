@@ -1,8 +1,18 @@
 <svg viewBox="0 0 270 18" xmlns="http://www.w3.org/2000/svg">
-<text x="50%" y="50%"
-  dominant-baseline="middle"
-  text-anchor="middle"
-  fill="#c49a6c"
-  font-family="'Courier New', Courier, monospace"
-  font-size="13">taylorcj@student.unimelb.edu.au</text>
+<style>
+text {
+  fill: #c49a6c;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 13px;
+  dominant-baseline: middle;
+  text-anchor: middle;
+}
+a:hover text {
+  fill: #ffffff;
+}
+</style>
+<a href="mailto:taylorcj@student.unimelb.edu.au" aria-label="Email taylorcj@student.unimelb.edu.au">
+  <rect width="270" height="18" fill="transparent" pointer-events="all"/>
+  <text x="50%" y="50%">taylorcj@student.unimelb.edu.au</text>
+</a>
 </svg>
