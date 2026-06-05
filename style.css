@@ -115,6 +115,11 @@ object.email {
     position: relative;
 }
 
+#visit-counter {
+    text-align: center;
+    margin: 8px 0;
+}
+
 #monchhichi {
     position: absolute;
     bottom: -10px;
